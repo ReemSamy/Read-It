@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Read it </title>
+        <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+    </head>
+    <body>
+      <ul>
+        <li><a class="active" href="#home">Home</a></li>
+        <li><a href="#news">News</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#about">About</a></li>
+      </ul>
+      <p id="Greeting"></p>
+      <p id="Days"></p>
+
+
+      
+        <h1>Read It Store</h1>
+        <p style="color: rgb(255, 255, 255);">
+            Read It Store is an online libarary that help you to find your book according to your interest.<br>
+            it offers all the types of the books ,novels and articles to you just join us and we will help you to find your book easily.
+        </p>
+        
+        <h2 style="color:#110a00">categories of books</h2>
+
+        <table id="customers">
+          <tr>
+            <th>Books</th>
+            <th>Type</th>
+            <th>Price</th>
+          </tr>
+          <tr>
+            <td> Pride and Prejudice</td>
+            <td>drama </td>
+            <td>120$</td>
+          </tr>
+          <tr>
+            <td> snabbköp</td>
+            <td>horror</td>
+            <td>200$</td>
+          </tr>
+          <tr>
+            <td>Centro comercial </td>
+            <td>action</td>
+            <td>34$</td>
+          </tr>
+          <tr>
+            <td>Ernst Handel</td>
+            <td>Fantsy</td>
+            <td>100$</td>
+          </tr>
+          <tr>
+            <td>Island Trading</td>
+            <td>mistry</td>
+            <td>220$</td>
+          </tr>
+          <tr>
+            <td>Königlich Essen</td>
+            <td>crime</td>
+            <td>50$</td>
+          </tr>
+          <tr>
+            <td>Laughing Bacchus</td>
+            <td>horror</td>
+            <td>45$</td>
+          </tr>
+          <tr>
+            <td>Magazzini Alimentari </td>
+            <td>revenge</td>
+            <td>60$</td>
+          </tr>
+          <tr>
+            <td>North/South</td>
+            <td>crime</td>
+            <td>88$</td>
+          </tr>
+          <tr>
+            <td>Paris spécialités</td>
+            <td>fantasy</td>
+            <td>111$</td>
+          </tr>
+        </table>
+        <br>
+        <div class="gallery">
+            <a target="_blank" href="images/3.jpg">
+              <img src="images/3.jpg" alt="Cinque Terre" width="600" height="400">
+            </a>
+            <div class="desc">To Kill a Mockingbird </div>
+          </div>
+          
+          <div class="gallery">
+            <a target="_blank" href="images/4.jpg">
+              <img src="images/4.jpg" alt="Forest" width="600" height="400">
+            </a>
+            <div class="desc">The Great Gatsby</div>
+          </div>
+          
+          <div class="gallery">
+            <a target="_blank" href="images/5.jpg">
+              <img src="images/5.jpg" alt="Northern Lights" width="600" height="400">
+            </a>
+            <div class="desc">One Hundred Years of Solitude</div>
+          </div>
+          
+          <div class="gallery">
+            <a target="_blank" href="images/6.jpg">
+              <img src="images/6.jpg" alt="Mountains" width="600" height="400">
+            </a>
+            <div class="desc">Wide Sargasso Sea</div>
+          </div>
+        <br>
+        <br>
+        <div>
+        <form>
+           <label for="firstnametext">first name:</label>
+           <input id="firstnametext" type="text" name="firstname" size="20" maxlength="20" placeholder="Enter your firstname" required>
+           <br>
+           <label for="lastnametext"> Last name:</label>
+           <input id="lastnametext" type="text" name="Lastname" size="20" maxlength="20" placeholder="Enter your lastname" required>
+           <br>
+           <Label for="birthdate">Birthdate</Label>
+           <select id="birthdate" name="Months">
+               <option value="0" selected disabled > Month</option>
+               <option value="1" > jan</option>
+               <option value="3" > feb</option>
+               <option value="4" > March</option>
+               <option value="5" > april</option>
+               <option value="6" > jun</option>
+           </select>
+           <br>
+           <label for="emailbox"> E-mail</label>
+           <input id="emailbox" type="email" name="email" size="20" maxlength="20" placeholder="Enter your Email">
+           <br>
+           <label for="password">Password</label>
+           <input id="password" type="password" name="password"  size="20" maxlength="20" placeholder="Enter your Password">
+           <br>
+           <label for="gender">Female</label>
+           <input id="gender" name="gender" type="radio"  value="male" checked>
+           <label for="gender">Male</label>
+           <input id="gender" name="gender" type="radio"  value="male" checked>
+           <br>
+        <label for="condition box"> I Agree to all conditions</label>
+        <input id="condition box" name="conditions" type="checkbox" value="yes" required>
+        <button type="submit">Submit</button>
+        <button type="reset">reset</button>
+        </form>
+        </div>
+        <br>
+
+        <h3 >We are 24/7 open</h3>
+        <script src="java.js"></script>
+<p id="demo"></p>
+<button  type="button" onclick="myFunction()">Contact</button>
+<p id="B">those are the books that we offer
+  <br>
+  Just pick one of those 
+</p>
+
+<script>window.alert("welcome to Read it");</script>
+<button onclick="ShopNow()" value="Shop Now"> Shop Now</button>
+<p id="Shop"></p>
+<button onclick="CallUs()" value="Call Us">Call Us</button>
+<P id="Call Us"></P>
+    </body>
+</html>
